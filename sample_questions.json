@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What are the payment terms under the service contract?",
+    "expected_document": "contract.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention invoice cycle, payment due date, or penalties"
+  },
+  {
+    "question": "What liability cap applies under the contract?",
+    "expected_document": "contract.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention damages cap or exclusions"
+  },
+  {
+    "question": "How can either party terminate the contract?",
+    "expected_document": "contract.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention notice period or termination grounds"
+  },
+  {
+    "question": "How long must confidential information be protected under the NDA?",
+    "expected_document": "nda.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention confidentiality survival period"
+  },
+  {
+    "question": "What information is excluded from confidentiality obligations?",
+    "expected_document": "nda.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention public domain or prior knowledge exclusions"
+  },
+  {
+    "question": "Who may receive confidential information under the NDA?",
+    "expected_document": "nda.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention employees, advisors, or approved recipients"
+  },
+  {
+    "question": "What is the company password rotation requirement in the policy?",
+    "expected_document": "policy.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention password age or reset interval"
+  },
+  {
+    "question": "What is the remote access requirement in the security policy?",
+    "expected_document": "policy.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention VPN or MFA requirement"
+  },
+  {
+    "question": "How long should records be retained under the policy?",
+    "expected_document": "policy.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention retention duration"
+  },
+  {
+    "question": "What happens if a user violates the security policy?",
+    "expected_document": "policy.pdf",
+    "expected_page": null,
+    "expected_answer_note": "Should mention disciplinary or access actions"
+  }
+]
