@@ -1,5 +1,4 @@
-#End-to-end RAG pipeline: ingest -> chunk -> embed -> index -> query
-
+from generation import generate_answer
 from pathlib import Path
 
 import numpy as np
@@ -72,7 +71,8 @@ class RAGPipeline:
             }
 
 
-        answer = "\n\n".join(r["meta"]["text"] for r in results)
+        generated = generate_answer(question, results)
+        answer = generated if generated else _LOW_CONFIDENCE_ANSWER
 
         return {
             "answer": answer,
